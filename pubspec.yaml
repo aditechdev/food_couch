@@ -46,6 +46,14 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  flutter_asset_generator: ^1.0.2
+  #  flutter_asset_generator: ^1.0.2 #fgen
+  # build_runner: ^2.4.6
+  # flutter_gen_runner: ^5.3.2
+  # flutter_gen: ^5.3.2 #flutter pub run build_runner build
+  # build_runner:
+  # flutter_gen_runner:
+  # flutter_gen:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -57,6 +65,7 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  generate: true
 
   # To add assets to your application, add an assets section, like this:
   assets:

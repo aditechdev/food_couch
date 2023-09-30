@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../const/resource.dart';
+
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
 
@@ -7,7 +9,10 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Image.asset("assets/images/logo/food_couch_logo.png"),
+        child: Image.asset(
+          R.ASSETS_IMAGES_LOGO_FOOD_COUCH_LOGO_PNG,
+          width: 190,
+        ),
       ),
     );
   }
